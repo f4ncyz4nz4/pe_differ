@@ -1,10 +1,10 @@
-from classes.pe_file import Pe_file
+from classes.entry import Entry
 
 
 class Dos_header:
     def __init__(self, pe_file) -> None:
         self.header = pe_file.DOS_HEADER
-        self.entries = Pe_file.dump(self.header)
+        self.entries = Entry.dump(self.header)
         self.start = 0
         self.end = 0
         for entry in self.entries:

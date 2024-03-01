@@ -1,0 +1,3 @@
+pefile==2023.2.7
+python-tlsh==4.5.0
+ssdeep==3.4

@@ -1,5 +1,11 @@
 # PE Executable Differ
-<!-- ![PE Executable Differ Logo](link_to_logo_image) -->
+- [PE Executable Differ](#pe-executable-differ)
+  - [Features](#features)
+  - [Installation](#installation)
+    - [Requirements](#requirements)
+  - [Usage](#usage)
+  - [Contributions](#contributions)
+  - [License](#license)
 
 PE Executable Differ is a Python tool designed to analyze Portable Executable (PE) files commonly found in Windows environments. With this tool, you can parse individual PE files and compare two executables without the need for disassembly. Whether you're analyzing malware or understanding modifications to executable files, PE Executable Differ provides valuable insights quickly and efficiently.
 
@@ -16,7 +22,7 @@ You can install PE Executable Differ using pip:
 git clone https://github.com/f4ncyz4nz4/pe_differ.git
 ```
 
-## Requirements
+### Requirements
 
 ```bash
 pip install -r requirements.txt
@@ -26,13 +32,13 @@ pip install -r requirements.txt
 To parse a single PE file:
 
 ```bash
-pe_differ.py <path_to_pe_file>
+python pe_differ.py <path_to_pe_file>
 ```
 
 To compare two PE files:
 
 ```bash
-pe_differ.py <path_to_pe_file1> <path_to_pe_file2>
+python pe_differ.py <path_to_pe_file1> <path_to_pe_file2>
 ```
 For detailed usage and options, refer to the documentation.
 

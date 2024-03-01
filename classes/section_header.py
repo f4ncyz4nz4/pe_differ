@@ -1,9 +1,9 @@
-from classes.pe_file import Pe_file
+from classes.entry import Entry
 
 
 class Section_header:
     def __init__(self, section) -> None:
-        self.entries = Pe_file.dump(section)
+        self.entries = Entry.dump(section)
         self.start = self.entries[0].addr
         self.end = self.start
         for entry in self.entries:
