@@ -19,12 +19,9 @@ PE Executable Differ is a Python tool designed to analyze Portable Executable (P
 
 ## Screenshots
 ![Screenshot 1](screenshots/screenshot1.png)
-<!-- ![Screenshot 2](screenshots/screenshot2.png) -->
-
-<video width="560" height="315" controls>
-  <source src="screenshots/screencast.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+![Screenshot 2](screenshots/screenshot2.png)
+![Screenshot 3](screenshots/screenshot3.png)
+![Screenshot 4](screenshots/screenshot4.png)
 
 ## Installation
 You can install PE Executable Differ using pip:
